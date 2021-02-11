@@ -1,2 +1,2 @@
-# hide-tabbar-animated
-Hiding UITabBar animated function for UITabBarController
+# Hide TabBar animated
+Animated UITabBar hiding function for UITabBarController
