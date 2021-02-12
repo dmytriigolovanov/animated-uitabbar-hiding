@@ -1,4 +1,4 @@
-# Animated TabBar hiding
+# Animated UITabBar hiding
 
 Usage:
 
