@@ -1,2 +1,7 @@
-# Hide TabBar animated
-Animated UITabBar hiding function for UITabBarController
+# Animated TabBar hiding
+
+Usage:
+
+```Swift
+tabBarController?.setTabBarHidden(true, animated: true)
+```
