@@ -11,6 +11,13 @@
 
 import UIKit
 
+extension UIViewController {
+    var compensatingToZeroSafeAreaBottomInset: CGFloat {
+        let bottom = self.view.safeAreaInsets.bottom - self.additionalSafeAreaInsets.bottom
+        return 0 - bottom
+    }
+}
+
 extension UITabBarController {
     
     static let hideShowBarDuration: CGFloat = 0.2
@@ -27,7 +34,7 @@ extension UITabBarController {
             self.tabBar.isHidden = false
         }
 
-        let duration = TimeInterval(animated ? hideShowBarDuration : 0)
+        let duration = TimeInterval(animated ? Self.hideShowBarDuration : 0)
 
         UIView.animate(withDuration: duration, animations: {
             let bottomInset = hidden ? self.compensatingToZeroSafeAreaBottomInset : 0
