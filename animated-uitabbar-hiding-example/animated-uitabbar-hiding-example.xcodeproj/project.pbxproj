@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B40BE3E525D711BE004E223F /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BE3E325D711BE004E223F /* UITabBarController+Extensions.swift */; };
-		B40BE3E625D711BE004E223F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40BE3E425D711BE004E223F /* UIViewController+Extensions.swift */; };
 		B41B36C625D70A5600993ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B36C525D70A5600993ECA /* AppDelegate.swift */; };
 		B41B36CA25D70A5600993ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B36C925D70A5600993ECA /* ViewController.swift */; };
 		B41B36CD25D70A5600993ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41B36CB25D70A5600993ECA /* Main.storyboard */; };
@@ -16,11 +14,12 @@
 		B41B36D225D70A5800993ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41B36D025D70A5800993ECA /* LaunchScreen.storyboard */; };
 		B41B36E425D70B6300993ECA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B36E325D70B6300993ECA /* TableViewController.swift */; };
 		B41B36E725D70B6F00993ECA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B36E625D70B6F00993ECA /* CollectionViewController.swift */; };
+		B4ADDB4625FEB1F2003C54D2 /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADDB4325FEB1F2003C54D2 /* UIEdgeInsets+Extensions.swift */; };
+		B4ADDB4725FEB1F2003C54D2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADDB4425FEB1F2003C54D2 /* UIViewController+Extensions.swift */; };
+		B4ADDB4825FEB1F2003C54D2 /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADDB4525FEB1F2003C54D2 /* UITabBarController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B40BE3E325D711BE004E223F /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Extensions.swift"; path = "../../../../UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
-		B40BE3E425D711BE004E223F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "../../../../UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		B41B36C225D70A5600993ECA /* animated-uitabbar-hiding-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animated-uitabbar-hiding-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41B36C525D70A5600993ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B41B36C925D70A5600993ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +29,9 @@
 		B41B36D325D70A5800993ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B41B36E325D70B6300993ECA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B41B36E625D70B6F00993ECA /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B4ADDB4325FEB1F2003C54D2 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+Extensions.swift"; path = "../../../../UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
+		B4ADDB4425FEB1F2003C54D2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "../../../../UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		B4ADDB4525FEB1F2003C54D2 /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Extensions.swift"; path = "../../../../UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +112,9 @@
 		B41B36ED25D70F1200993ECA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B40BE3E325D711BE004E223F /* UITabBarController+Extensions.swift */,
-				B40BE3E425D711BE004E223F /* UIViewController+Extensions.swift */,
+				B4ADDB4325FEB1F2003C54D2 /* UIEdgeInsets+Extensions.swift */,
+				B4ADDB4525FEB1F2003C54D2 /* UITabBarController+Extensions.swift */,
+				B4ADDB4425FEB1F2003C54D2 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -187,11 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41B36CA25D70A5600993ECA /* ViewController.swift in Sources */,
-				B40BE3E525D711BE004E223F /* UITabBarController+Extensions.swift in Sources */,
 				B41B36C625D70A5600993ECA /* AppDelegate.swift in Sources */,
 				B41B36E425D70B6300993ECA /* TableViewController.swift in Sources */,
-				B40BE3E625D711BE004E223F /* UIViewController+Extensions.swift in Sources */,
 				B41B36E725D70B6F00993ECA /* CollectionViewController.swift in Sources */,
+				B4ADDB4825FEB1F2003C54D2 /* UITabBarController+Extensions.swift in Sources */,
+				B4ADDB4725FEB1F2003C54D2 /* UIViewController+Extensions.swift in Sources */,
+				B4ADDB4625FEB1F2003C54D2 /* UIEdgeInsets+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

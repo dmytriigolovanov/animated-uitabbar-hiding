@@ -12,8 +12,7 @@
 import UIKit
 
 extension UIViewController {
-    var compensatingToZeroSafeAreaBottomInset: CGFloat {
-        let bottom = self.view.safeAreaInsets.bottom - self.additionalSafeAreaInsets.bottom
-        return 0 - bottom
+    var safeAreaCompensatingToZeroInsets: UIEdgeInsets {
+        return .zero - (view.safeAreaInsets - additionalSafeAreaInsets)
     }
 }
